@@ -37,24 +37,6 @@ The Webpage Fetcher can be run in two modes:
 To fetch the HTML content of a webpage, simply run:
 
 ```bash
-docker run webpage-fetcher https://www.google.com
-```
-
-markdown
-Copy code
-
-## Running the Application
-
-The Webpage Fetcher can be run in two modes:
-
-- **Default Mode** - Fetches the HTML content of a specified webpage.
-- **Mirror Mode** - Creates a local mirror of the specified webpage, including all assets.
-
-### Default Mode
-
-To fetch the HTML content of a webpage, simply run:
-
-```bash
 docker run webpage-fetcher node . https://www.google.com
 ```
 
